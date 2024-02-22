@@ -1,0 +1,39 @@
+li:first-child {
+  color: black;
+}
+
+li:last-child{
+  color: black
+}
+
+li:hover {
+  color: red;
+}
+
+h1:hover{
+  color: yellow
+}
+
+#h1{
+  color: red;
+  font-weight: bold;
+}
+
+h2{
+  color: black;
+}
+h2:hover{
+  color: beige;
+}
+
+p:first-child{
+color: gold;
+}
+
+h4:hover{
+  color: yellow;
+}
+
+h4{
+  color: gray;
+}
