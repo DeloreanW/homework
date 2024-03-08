@@ -323,9 +323,9 @@ const data = [
 //       bs: "transition cutting-edge web services"
 //     }
 //   },
-const phoneNumbers = data.forEach(item => phoneNumbers.push(item.phone));
-console.log(phoneNumbers);
+const phoneNumbers = data.map(item => item.phone);
+// console.log(phoneNumbers);
 
 // create and print a list of website and email pairs (pair them in a string, array, or object)
-const contact = data.map(item => `${item.id.website} ${item.id.email}`);
+const contact = data.map(item => `${item.website}, ${item.email}`);
 console.log(contact);

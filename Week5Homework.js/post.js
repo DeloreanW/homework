@@ -399,9 +399,10 @@ const data = [
 //     "ut aspernatur corporis harum nihil quis provident sequi\nmollitia nobis aliquid molestiae\nperspiciatis et ea nemo ab reprehenderit accusantium quas\nvoluptate dolores velit et doloremque molestiae"
 // },
 // create a list of user 5's posts?
-
+const user5 = data.filter(post => post.userId === 5);
+console.log(user5);
 // then, create a list of title and body pairs?
-const titleBodyPairs = data.maps(post => ({
+const titleBodyPairs = data.map(post => ({
   title: post.title,
   body: post.body
 }));
